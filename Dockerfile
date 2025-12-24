@@ -14,7 +14,7 @@ RUN pip install --upgrade pip
 
 RUN pip install -r requirements.txt
 
-COPY data.html .
+COPY asyncpg_pool.py .
 
 COPY gct.html .
 
@@ -22,7 +22,7 @@ COPY create_tables.sql .
 
 COPY urls.py .
 
-COPY asyncpg_pool.py .
+COPY data.html .
 
 COPY mod.py .
 

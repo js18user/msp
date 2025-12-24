@@ -43,6 +43,7 @@ db_host_twp: str = f"147.45.239.120"
 
 url_azure: str = (f"postgresql://neondb_owner:npg_GoPNxHe0pzm4@ep-rapid-glitter-a9y5kqy5-pooler.gwc."
                   f"azure.neon.tech/neondb?sslmode=require")
+url_railway: str = "postgresql://postgres:PpkgjxXKCWDTGWkeFBcrfAFGVxgfYQrO@yamabiko.proxy.rlwy.net:28694/railway"
 
 # Postgresql 15  on Local Timeweb
 
